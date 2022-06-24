@@ -1,0 +1,20 @@
+{
+    "module": "M-OTH-420",
+    "project": "badbuild",
+    "agent-image": "epitechcontent/epitest-docker:latest",
+    "build-commands": [
+        "ls ?"
+    ],
+    "skills": [
+        {
+            "name": "01 - preliminaries",
+            "tests": [
+                {
+                    "name": "Build status",
+                    "command": "echo -n ^OK",
+                    "expected": "^OK"
+                }
+            ]
+        }
+    ]
+}
